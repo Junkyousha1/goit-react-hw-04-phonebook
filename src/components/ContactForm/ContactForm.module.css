@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 50px;
+  border-radius: 20px;
+  border: solid 2px black;
+}
+
+label:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.inputName {
+  margin-left: 28px;
+}
+.inputNumber {
+  margin-left: 10px;
+}
+.button {
+  cursor: pointer;
+}
